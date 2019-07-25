@@ -1,0 +1,14 @@
+D:\GIT Repos\Microservices\myMicroservice\bin\Debug\netcoreapp2.2\myMicroservice.deps.json
+D:\GIT Repos\Microservices\myMicroservice\bin\Debug\netcoreapp2.2\myMicroservice.runtimeconfig.json
+D:\GIT Repos\Microservices\myMicroservice\bin\Debug\netcoreapp2.2\myMicroservice.runtimeconfig.dev.json
+D:\GIT Repos\Microservices\myMicroservice\bin\Debug\netcoreapp2.2\myMicroservice.dll
+D:\GIT Repos\Microservices\myMicroservice\bin\Debug\netcoreapp2.2\myMicroservice.pdb
+D:\GIT Repos\Microservices\myMicroservice\obj\Debug\netcoreapp2.2\myMicroservice.csprojAssemblyReference.cache
+D:\GIT Repos\Microservices\myMicroservice\obj\Debug\netcoreapp2.2\myMicroservice.csproj.CoreCompileInputs.cache
+D:\GIT Repos\Microservices\myMicroservice\obj\Debug\netcoreapp2.2\myMicroservice.RazorAssemblyInfo.cache
+D:\GIT Repos\Microservices\myMicroservice\obj\Debug\netcoreapp2.2\myMicroservice.RazorAssemblyInfo.cs
+D:\GIT Repos\Microservices\myMicroservice\obj\Debug\netcoreapp2.2\myMicroservice.AssemblyInfoInputs.cache
+D:\GIT Repos\Microservices\myMicroservice\obj\Debug\netcoreapp2.2\myMicroservice.AssemblyInfo.cs
+D:\GIT Repos\Microservices\myMicroservice\obj\Debug\netcoreapp2.2\myMicroservice.RazorTargetAssemblyInfo.cache
+D:\GIT Repos\Microservices\myMicroservice\obj\Debug\netcoreapp2.2\myMicroservice.dll
+D:\GIT Repos\Microservices\myMicroservice\obj\Debug\netcoreapp2.2\myMicroservice.pdb
