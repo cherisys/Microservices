@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34526.213
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Catalog", "Play.Catalog", "{EB330924-9971-4198-A8A5-B0B1A349EFF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{88D801BF-470D-4143-B18F-63429F812550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Catalog.Service", "Play.Catalog.Service", "{970C57EC-EB60-45A1-9405-9D99369A359E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog.Service", "Play.Catalog\src\Play.Catalog.Service\Play.Catalog.Service.csproj", "{E026BB86-5F89-436C-8F3A-CAA7425A2720}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Common", "Play.Common", "{D56F2534-86D4-4CCE-A639-55631FCFD60E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B59890FD-0597-4CEA-BC7D-A76A64E48D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Common", "Play.Common\src\Play.Common\Play.Common.csproj", "{0F6B7C11-605E-4280-BDE0-FEAC0DFE5C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{3D6C255B-0044-4D6A-A06E-783D44633B97}"
+	ProjectSection(SolutionItems) = preProject
+		Play.Common\src\Play.Common\bin\Debug\Play.Common.1.0.0.nupkg = Play.Common\src\Play.Common\bin\Debug\Play.Common.1.0.0.nupkg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Infra", "Play.Infra", "{5990CFE9-8B29-4BD4-9386-CCA5C5094342}"
+	ProjectSection(SolutionItems) = preProject
+		Play.Infra\docker-compose.yml = Play.Infra\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Inventory", "Play.Inventory", "{13ACDBE7-FCFF-4A8B-9140-FB1E3255E064}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1EB6A082-23F2-417B-A322-18CF4EA16567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Catalog.Contracts", "Play.Catalog.Contracts", "{154A660B-075C-4070-A645-377178675DB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog.Contracts", "Play.Catalog\src\Play.Catalog.Contracts\Play.Catalog.Contracts.csproj", "{11E5D01A-3552-405E-9088-2B2F17B2C4B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Inventory.Service", "Play.Inventory.Service", "{9605DBAE-5E13-4704-85B1-26F3C979C2B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Inventory.Service", "Play.Inventory\src\Play.Inventory.Service\Play.Inventory.Service.csproj", "{2EC1823F-5FCC-410B-8FEF-066C4191B59D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Frontend", "Play.Frontend", "{4FC1FE0E-B6E5-47CB-8BAF-2D0B26BEB6F4}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "play.frontend", "Play.Frontend\src\Play.Frontend\play.frontend.esproj", "{155CDACD-0161-42BE-8441-4A9F220B3AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E026BB86-5F89-436C-8F3A-CAA7425A2720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E026BB86-5F89-436C-8F3A-CAA7425A2720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E026BB86-5F89-436C-8F3A-CAA7425A2720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E026BB86-5F89-436C-8F3A-CAA7425A2720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6B7C11-605E-4280-BDE0-FEAC0DFE5C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6B7C11-605E-4280-BDE0-FEAC0DFE5C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6B7C11-605E-4280-BDE0-FEAC0DFE5C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6B7C11-605E-4280-BDE0-FEAC0DFE5C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E5D01A-3552-405E-9088-2B2F17B2C4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E5D01A-3552-405E-9088-2B2F17B2C4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E5D01A-3552-405E-9088-2B2F17B2C4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E5D01A-3552-405E-9088-2B2F17B2C4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC1823F-5FCC-410B-8FEF-066C4191B59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC1823F-5FCC-410B-8FEF-066C4191B59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC1823F-5FCC-410B-8FEF-066C4191B59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC1823F-5FCC-410B-8FEF-066C4191B59D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{155CDACD-0161-42BE-8441-4A9F220B3AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155CDACD-0161-42BE-8441-4A9F220B3AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155CDACD-0161-42BE-8441-4A9F220B3AB1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{155CDACD-0161-42BE-8441-4A9F220B3AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155CDACD-0161-42BE-8441-4A9F220B3AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{155CDACD-0161-42BE-8441-4A9F220B3AB1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88D801BF-470D-4143-B18F-63429F812550} = {EB330924-9971-4198-A8A5-B0B1A349EFF2}
+		{970C57EC-EB60-45A1-9405-9D99369A359E} = {88D801BF-470D-4143-B18F-63429F812550}
+		{E026BB86-5F89-436C-8F3A-CAA7425A2720} = {970C57EC-EB60-45A1-9405-9D99369A359E}
+		{B59890FD-0597-4CEA-BC7D-A76A64E48D4E} = {D56F2534-86D4-4CCE-A639-55631FCFD60E}
+		{0F6B7C11-605E-4280-BDE0-FEAC0DFE5C83} = {B59890FD-0597-4CEA-BC7D-A76A64E48D4E}
+		{1EB6A082-23F2-417B-A322-18CF4EA16567} = {13ACDBE7-FCFF-4A8B-9140-FB1E3255E064}
+		{154A660B-075C-4070-A645-377178675DB3} = {88D801BF-470D-4143-B18F-63429F812550}
+		{11E5D01A-3552-405E-9088-2B2F17B2C4B8} = {154A660B-075C-4070-A645-377178675DB3}
+		{9605DBAE-5E13-4704-85B1-26F3C979C2B1} = {1EB6A082-23F2-417B-A322-18CF4EA16567}
+		{2EC1823F-5FCC-410B-8FEF-066C4191B59D} = {9605DBAE-5E13-4704-85B1-26F3C979C2B1}
+		{155CDACD-0161-42BE-8441-4A9F220B3AB1} = {4FC1FE0E-B6E5-47CB-8BAF-2D0B26BEB6F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD6169AC-3C99-4FE4-99B4-E040B673A1DF}
+	EndGlobalSection
+EndGlobal
